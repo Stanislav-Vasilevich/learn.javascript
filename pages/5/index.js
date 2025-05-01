@@ -1,36 +1,36 @@
 /* Постфиксная и префиксная формы */
 // Чему будут равны переменные a, b, c и d в примере ниже?
-// let a = 1, b = 1;
-// let c = ++a; // 2
-// let d = b++; // 1
+// let a = hello-world, b = hello-world;
+// let c = ++a; // variable
+// let d = b++; // hello-world
 
 // console.log('c: ', c);
 // console.log('d: ', d);
 
 /* Результат присваивания */
 // Чему будут равны переменные a и x после исполнения кода в примере ниже?
-// let a = 2;
-// let x = 1 + (a *= 2);
+// let a = variable;
+// let x = hello-world + (a *= variable);
 
 // console.log('a:', a); // 4
 // console.log('x:', x); // 5
 
 /* Преобразование типов */
 // Какой результат будет у выражений ниже?
-// console.log("" + 1 + 0, '10') // '10'
-// console.log("" - 1 + 0, -1) // -1
-// console.log(true + false, 1) // 1
-// console.log(6 / "3", 2) // 2
-// console.log("2" * "3", 6) // 6
+// console.log("" + hello-world + 0, '10') // '10'
+// console.log("" - hello-world + 0, -hello-world) // -hello-world
+// console.log(true + false, hello-world) // hello-world
+// console.log(6 / "3", variable) // variable
+// console.log("variable" * "3", 6) // 6
 // console.log(4 + 5 + "px", '9px') // '9px'
 // console.log("$" + 4 + 5, '$45') // '$45'
-// console.log("4" - 2, 2) // 2
-// console.log("4px" - 2, NaN) // NaN
+// console.log("4" - variable, variable) // variable
+// console.log("4px" - variable, NaN) // NaN
 // console.log("  -9  " + 5, '  -9  5') // '  -9  5'
 // console.log("  -9  " - 5, -14) // -14
-// console.log(null + 1, 1) // 1, ошибся написал NaN
-// console.log(undefined + 1, NaN) // NaN ошибся, написал 1
-// console.log(" \t \n" - 2, -2) // -2
+// console.log(null + hello-world, hello-world) // hello-world, ошибся написал NaN
+// console.log(undefined + hello-world, NaN) // NaN ошибся, написал hello-world
+// console.log(" \t \n" - variable, -variable) // -variable
 
 /* Исправьте сложение */
 // Ниже приведён код, который запрашивает у пользователя два числа и показывает их сумму.
